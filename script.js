@@ -24,7 +24,7 @@ const status = document.getElementById('form-status');
 
 form.addEventListener('submit', event => {
   event.preventDefault();
-  if (BUSINESS_EMAIL === 'admin@aitcsecurity.com') {
+  if (BUSINESS_EMAIL === 'example@acme.com') {
     status.textContent = 'Before publishing, update BUSINESS_EMAIL in script.js with your business email address.';
     return;
   }
