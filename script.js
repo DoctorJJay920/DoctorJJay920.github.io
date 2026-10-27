@@ -17,14 +17,14 @@ if (menuToggle && nav) {
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Replace this placeholder with the business email address before publishing.
-const BUSINESS_EMAIL = 'YOUR-EMAIL@example.com';
+const BUSINESS_EMAIL = 'admin@aitcsecurity.com';
 
 const form = document.getElementById('contact-form');
 const status = document.getElementById('form-status');
 
 form.addEventListener('submit', event => {
   event.preventDefault();
-  if (BUSINESS_EMAIL === 'YOUR-EMAIL@example.com') {
+  if (BUSINESS_EMAIL === 'admin@aitcsecurity.com') {
     status.textContent = 'Before publishing, update BUSINESS_EMAIL in script.js with your business email address.';
     return;
   }
